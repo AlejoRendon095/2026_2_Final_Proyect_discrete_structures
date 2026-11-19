@@ -54,7 +54,7 @@ class TransformerConfig:
     epochs: int = 3
     weight_decay: float = 0.01
     warmup_ratio: float = 0.1
-    dropout: Optional[float] = None  # None keeps the pre-trained value (0.1)
+    dropout: Optional[float] = None  # head dropout; None keeps DistilBERT default (0.2)
     seed: int = 42
 
     def to_dict(self) -> Dict:
