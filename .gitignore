@@ -29,4 +29,5 @@ data/raw/*.csv
 !data/README.md
 
 .claude/
-settings.local.json
+settings.local.jsondata/raw/*.tsv
+data/raw/*.txt
